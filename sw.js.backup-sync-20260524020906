@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Yaqui Lobaina NAILS Pro
 
-const CACHE_NAME = 'yaquilobainanailspro-v29';
+const CACHE_NAME = 'yaquilobainanailspro-v1';
 const urlsToCache = [
   '/yaquilobainanailspro/',
   '/yaquilobainanailspro/index.html',
