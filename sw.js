@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Yaqui Lobaina NAILS Pro
 
-const CACHE_NAME = 'yaquilobainanailspro-v29';
+const CACHE_NAME = 'yaquilobainanailspro-v47';
 const urlsToCache = [
   '/yaquilobainanailspro/',
   '/yaquilobainanailspro/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/yaquilobainanailspro/icons/icon-152x152.png',
   '/yaquilobainanailspro/icons/icon-192x192.png',
   '/yaquilobainanailspro/icons/icon-384x384.png',
-  '/yaquilobainanailspro/icons/icon-512x512.png'
+  '/yaquilobainanailspro/icons/icon-512x512.png',
+  '/yaquilobainanailspro/vendor/react.production.min.js',
+  '/yaquilobainanailspro/vendor/react-dom.production.min.js',
+  '/yaquilobainanailspro/vendor/babel.min.js',
+  '/yaquilobainanailspro/vendor/bcrypt.min.js',
+  '/yaquilobainanailspro/vendor/tailwind-browser.js',
+  '/yaquilobainanailspro/vendor/lucide/lucide.css',
+  '/yaquilobainanailspro/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
